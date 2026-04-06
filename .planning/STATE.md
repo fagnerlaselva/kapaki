@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 01-fundacao-02-PLAN.md
-last_updated: "2026-04-06T11:52:07.818Z"
+stopped_at: Completed 02-homepage-01-PLAN.md
+last_updated: "2026-04-06T12:43:08.753Z"
 progress:
   total_phases: 4
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 5
+  completed_plans: 4
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-06)
 
 **Core value:** Gerar leads via WhatsApp — cada pagina e CTA deve maximizar contatos iniciados no WhatsApp da loja.
-**Current focus:** Phase 01 — fundacao
+**Current focus:** Phase 02 — homepage
 
 ## Current Position
 
-Phase: 2
-Plan: Not started
+Phase: 02 (homepage) — EXECUTING
+Plan: 3 of 3
 
 ## Performance Metrics
 
@@ -48,6 +48,8 @@ Plan: Not started
 *Updated after each plan completion*
 | Phase 01-fundacao P01 | 5 | 3 tasks | 6 files |
 | Phase 01-fundacao P02 | 8 | 3 tasks | 7 files |
+| Phase 02-homepage P02 | 2 | 2 tasks | 4 files |
+| Phase 02-homepage P01 | 1 | 3 tasks | 10 files |
 
 ## Accumulated Context
 
@@ -66,6 +68,11 @@ Recent decisions affecting current work:
 - [Phase 01-fundacao]: Nuxt 4 uses app/ directory convention — ~/assets resolves to app/assets not project root
 - [Phase 01-fundacao]: ogImage.zeroRuntime: true prevents nuxt-og-image TTY crash in CI/non-terminal environments
 - [Phase 01-fundacao]: useWhatsApp composable called in pages only — section components receive whatsappUrl as prop
+- [Phase 02-homepage]: ServiceCard/ServicosSection are presentational — whatsappUrl comes as prop, 3 distinct URLs per service key (WA-02)
+- [Phase 02-homepage]: AppFooter receives all data as props; default.vue orchestrates useAppConfig and useWhatsApp('geral')
+- [Phase 02-homepage]: Footer background: bg-[#0A0A0A] arbitrary Tailwind value (darker than bg-surface #1C1C1C) per kapaki.md spec
+- [Phase 02-homepage]: All section components are strictly presentational — useWhatsApp and useAppConfig called at page level only, sections receive whatsappUrl as prop
+- [Phase 02-homepage]: v-show (not v-if) on WhatsAppFab in app.vue prevents SSR hydration mismatch — server renders display:none, client toggles
 
 ### Pending Todos
 
@@ -80,6 +87,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T11:48:23.002Z
-Stopped at: Completed 01-fundacao-02-PLAN.md
+Last session: 2026-04-06T12:43:08.751Z
+Stopped at: Completed 02-homepage-01-PLAN.md
 Resume file: None

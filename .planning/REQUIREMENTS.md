@@ -18,17 +18,17 @@ Requirements for initial release. Each maps to roadmap phases.
 ### WhatsApp & Conversao
 
 - [x] **WA-01**: Composable useWhatsApp que gera links wa.me com encodeURIComponent e mensagens pre-preenchidas por servico
-- [ ] **WA-02**: Botoes WhatsApp com mensagens pre-preenchidas distintas por servico (acessorios, assistencia, aparelhos)
-- [ ] **WA-03**: FAB WhatsApp fixo (bottom-right, circulo verde #25D366) que aparece apos scroll, funciona em mobile e desktop
-- [ ] **WA-04**: CTA final amarelo full-width com botao WhatsApp em todas as paginas
+- [x] **WA-02**: Botoes WhatsApp com mensagens pre-preenchidas distintas por servico (acessorios, assistencia, aparelhos)
+- [x] **WA-03**: FAB WhatsApp fixo (bottom-right, circulo verde #25D366) que aparece apos scroll, funciona em mobile e desktop
+- [x] **WA-04**: CTA final amarelo full-width com botao WhatsApp em todas as paginas
 
 ### Homepage
 
-- [ ] **HOME-01**: HeroSection full-width com H1, subtitulo, botao WhatsApp amarelo e botao outline "Ver servicos"
-- [ ] **HOME-02**: ServicosSection com 3 cards (Acessorios, Assistencia Tecnica com badge "Mais procurado", Aparelhos)
-- [ ] **HOME-03**: ProvasSociaisSection com selo "+500 clientes", 3 cards de avaliacao com 5 estrelas
-- [ ] **HOME-04**: BeneficiosSection com 4 cards (Atendimento Rapido, Preco Justo, Garantia, Localizacao)
-- [ ] **HOME-05**: Footer com 3 colunas (Sobre, Contato com WhatsApp e Instagram, Horarios)
+- [x] **HOME-01**: HeroSection full-width com H1, subtitulo, botao WhatsApp amarelo e botao outline "Ver servicos"
+- [x] **HOME-02**: ServicosSection com 3 cards (Acessorios, Assistencia Tecnica com badge "Mais procurado", Aparelhos)
+- [x] **HOME-03**: ProvasSociaisSection com selo "+500 clientes", 3 cards de avaliacao com 5 estrelas
+- [x] **HOME-04**: BeneficiosSection com 4 cards (Atendimento Rapido, Preco Justo, Garantia, Localizacao)
+- [x] **HOME-05**: Footer com 3 colunas (Sobre, Contato com WhatsApp e Instagram, Horarios)
 
 ### Paginas de Servico
 
@@ -47,7 +47,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Responsividade & Performance
 
-- [ ] **PERF-01**: Site 100% responsivo mobile-first (mobile, tablet, desktop)
+- [x] **PERF-01**: Site 100% responsivo mobile-first (mobile, tablet, desktop)
 - [ ] **PERF-02**: Lighthouse Performance >= 90 (mobile)
 - [ ] **PERF-03**: Lighthouse SEO = 100
 - [ ] **PERF-04**: Imagens otimizadas via @nuxt/image com lazy loading
@@ -108,14 +108,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SETUP-04 | Phase 1 | Complete |
 | SETUP-05 | Phase 1 | Complete |
 | WA-01 | Phase 1 | Complete |
-| WA-02 | Phase 2 | Pending |
-| WA-03 | Phase 2 | Pending |
-| WA-04 | Phase 2 | Pending |
-| HOME-01 | Phase 2 | Pending |
-| HOME-02 | Phase 2 | Pending |
-| HOME-03 | Phase 2 | Pending |
-| HOME-04 | Phase 2 | Pending |
-| HOME-05 | Phase 2 | Pending |
+| WA-02 | Phase 2 | Complete |
+| WA-03 | Phase 2 | Complete |
+| WA-04 | Phase 2 | Complete |
+| HOME-01 | Phase 2 | Complete |
+| HOME-02 | Phase 2 | Complete |
+| HOME-03 | Phase 2 | Complete |
+| HOME-04 | Phase 2 | Complete |
+| HOME-05 | Phase 2 | Complete |
 | SERV-01 | Phase 3 | Pending |
 | SERV-02 | Phase 3 | Pending |
 | SERV-03 | Phase 3 | Pending |
@@ -125,7 +125,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEO-03 | Phase 3 | Pending |
 | SEO-04 | Phase 3 | Pending |
 | SEO-05 | Phase 3 | Pending |
-| PERF-01 | Phase 2 | Pending |
+| PERF-01 | Phase 2 | Complete |
 | PERF-02 | Phase 4 | Pending |
 | PERF-03 | Phase 4 | Pending |
 | PERF-04 | Phase 3 | Pending |
