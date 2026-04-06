@@ -9,11 +9,11 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Setup & Infraestrutura
 
-- [ ] **SETUP-01**: Projeto Nuxt 3 configurado com SSR (nitro preset: vercel), Tailwind v4 via @tailwindcss/vite, TypeScript
-- [ ] **SETUP-02**: Paleta de cores dark theme (#111111 fundo, #F5C400 amarelo destaque) configurada no Tailwind
-- [ ] **SETUP-03**: Tipografia Poppins (headings) + Inter (body) via @nuxt/fonts com self-hosting
+- [x] **SETUP-01**: Projeto Nuxt 3 configurado com SSR (nitro preset: vercel), Tailwind v4 via @tailwindcss/vite, TypeScript
+- [x] **SETUP-02**: Paleta de cores dark theme (#111111 fundo, #F5C400 amarelo destaque) configurada no Tailwind
+- [x] **SETUP-03**: Tipografia Poppins (headings) + Inter (body) via @nuxt/fonts com self-hosting
 - [ ] **SETUP-04**: Dados de negocio centralizados em app.config.ts (WhatsApp, endereco, horarios) com placeholders
-- [ ] **SETUP-05**: Icones via lucide-vue-next configurados
+- [x] **SETUP-05**: Icones via lucide-vue-next configurados
 
 ### WhatsApp & Conversao
 
@@ -102,11 +102,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SETUP-01 | Phase 1 | Pending |
-| SETUP-02 | Phase 1 | Pending |
-| SETUP-03 | Phase 1 | Pending |
+| SETUP-01 | Phase 1 | Complete |
+| SETUP-02 | Phase 1 | Complete |
+| SETUP-03 | Phase 1 | Complete |
 | SETUP-04 | Phase 1 | Pending |
-| SETUP-05 | Phase 1 | Pending |
+| SETUP-05 | Phase 1 | Complete |
 | WA-01 | Phase 1 | Pending |
 | WA-02 | Phase 2 | Pending |
 | WA-03 | Phase 2 | Pending |

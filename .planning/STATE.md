@@ -1,3 +1,17 @@
+---
+gsd_state_version: 1.0
+milestone: v1.0
+milestone_name: milestone
+status: unknown
+stopped_at: Completed 01-fundacao-01-PLAN.md
+last_updated: "2026-04-06T11:41:53.514Z"
+progress:
+  total_phases: 4
+  completed_phases: 0
+  total_plans: 2
+  completed_plans: 1
+---
+
 # Project State
 
 ## Project Reference
@@ -5,20 +19,17 @@
 See: .planning/PROJECT.md (updated 2026-04-06)
 
 **Core value:** Gerar leads via WhatsApp — cada pagina e CTA deve maximizar contatos iniciados no WhatsApp da loja.
-**Current focus:** Phase 1 — Fundacao
+**Current focus:** Phase 01 — fundacao
 
 ## Current Position
 
-Phase: 1 of 4 (Fundacao)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-04-06 — Roadmap criado, pronto para planejar Phase 1
-
-Progress: [░░░░░░░░░░] 0%
+Phase: 01 (fundacao) — EXECUTING
+Plan: 2 of 2
 
 ## Performance Metrics
 
 **Velocity:**
+
 - Total plans completed: 0
 - Average duration: —
 - Total execution time: 0 hours
@@ -30,10 +41,12 @@ Progress: [░░░░░░░░░░] 0%
 | - | - | - | - |
 
 **Recent Trend:**
+
 - Last 5 plans: —
 - Trend: —
 
 *Updated after each plan completion*
+| Phase 01-fundacao P01 | 5 | 3 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -46,6 +59,9 @@ Recent decisions affecting current work:
 - Setup: `@nuxtjs/seo` v5 instala 6 modulos SEO de uma vez com versoes compativeis
 - Setup: `@nuxt/fonts` preferido sobre `@nuxtjs/google-fonts` (inclui font-metric fallbacks para CLS)
 - Setup: Preset nitro deve ser `vercel`, nunca `vercel-static` — SSR exigido para SEO local
+- [Phase 01-fundacao]: Tailwind v4 via @tailwindcss/vite (not @nuxtjs/tailwindcss) — PostCSS conflicts with v4 confirmed
+- [Phase 01-fundacao]: No tailwind.config.js — Tailwind v4 CSS-first @theme directive in main.css
+- [Phase 01-fundacao]: nitro.preset: 'vercel' mandatory for SSR — 'vercel-static' breaks schema JSON-LD and server-side meta tags
 
 ### Pending Todos
 
@@ -60,6 +76,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06
-Stopped at: Roadmap criado e aprovado — iniciar planejamento da Phase 1
+Last session: 2026-04-06T11:41:53.512Z
+Stopped at: Completed 01-fundacao-01-PLAN.md
 Resume file: None
