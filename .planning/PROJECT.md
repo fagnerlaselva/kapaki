@@ -12,7 +12,12 @@ Gerar leads via WhatsApp — cada pagina, cada CTA e cada decisao de design deve
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ Projeto Nuxt 3 com SSR (Vercel preset), Tailwind v4, TypeScript — Phase 1
+- ✓ Paleta dark (#111111/#F5C400) configurada no Tailwind — Phase 1
+- ✓ Tipografia Poppins + Inter via @nuxt/fonts com self-hosting — Phase 1
+- ✓ Dados de negocio centralizados em app.config.ts — Phase 1
+- ✓ Icones via lucide-vue-next — Phase 1
+- ✓ Composable useWhatsApp com encodeURIComponent — Phase 1
 
 ### Active
 
@@ -83,4 +88,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-06 after initialization*
+*Last updated: 2026-04-06 after Phase 1 completion*
