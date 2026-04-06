@@ -56,7 +56,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Analytics
 
 - [ ] **ANAL-01**: Google Analytics 4 integrado via nuxt-gtag (SSR-safe, plugin .client)
-- [ ] **ANAL-02**: Evento customizado para cliques nos botoes WhatsApp
+- [ ] **ANAL-02**: Evento customizado GA4 para cliques em TODOS os botoes (WhatsApp, "Ver servicos", CTAs de servico, links de navegacao)
 
 ## v2 Requirements
 
