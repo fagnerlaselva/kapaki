@@ -18,6 +18,11 @@ Gerar leads via WhatsApp — cada pagina, cada CTA e cada decisao de design deve
 - ✓ Dados de negocio centralizados em app.config.ts — Phase 1
 - ✓ Icones via lucide-vue-next — Phase 1
 - ✓ Composable useWhatsApp com encodeURIComponent — Phase 1
+- ✓ Homepage completa com todas as secoes (Hero, Servicos, Provas Sociais, Beneficios, CTA Final, Footer) — Phase 2
+- ✓ Botoes WhatsApp com mensagens pre-preenchidas por servico — Phase 2
+- ✓ FAB WhatsApp fixo com scroll detection — Phase 2
+- ✓ CTA final amarelo full-width — Phase 2
+- ✓ Site responsivo mobile-first — Phase 2
 
 ### Active
 
@@ -88,4 +93,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-06 after Phase 1 completion*
+*Last updated: 2026-04-06 after Phase 2 completion*
