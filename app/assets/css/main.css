@@ -16,3 +16,7 @@
 }
 
 @plugin "@tailwindcss/typography";
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,45 +1,37 @@
-<!-- pages/index.vue — Phase 1 placeholder. Replaced with real homepage in Phase 2. -->
 <script setup lang="ts">
-import { Phone } from 'lucide-vue-next'
+import { SERVICES } from '~/constants/services'
+import { TESTIMONIALS } from '~/constants/testimonials'
+import { BENEFITS } from '~/constants/benefits'
 
-// Verify useWhatsApp composable works (auto-imported by Nuxt)
-const { whatsappUrl } = useWhatsApp('assistencia')
+// SEO meta — runs server-side only, zero client JS (per ARCHITECTURE.md Pattern 1)
+useServerSeoMeta({
+  title: 'Kapaki Tatui | Acessorios, Assistencia Tecnica e Celulares em Tatui-SP',
+  description: 'A Kapaki e a loja de confianca em Tatui para acessorios para celular, assistencia tecnica especializada e smartphones novos e seminovos. Atendimento rapido e preco justo.',
+  ogTitle: 'Kapaki Tatui | Sua loja de celulares em Tatui-SP',
+  ogDescription: 'Acessorios, assistencia tecnica e celulares em Tatui. Fale agora no WhatsApp.',
+  ogImage: '/og-image.jpg',
+  twitterCard: 'summary_large_image',
+})
 
-// Verify useAppConfig works
-const config = useAppConfig()
+// WhatsApp URLs — one per service + one for hero/CTA (geral)
+const { whatsappUrl: waHero } = useWhatsApp('geral')
+const { whatsappUrl: waAssistencia } = useWhatsApp('assistencia')
+const { whatsappUrl: waAcessorios } = useWhatsApp('acessorios')
+const { whatsappUrl: waAparelhos } = useWhatsApp('aparelhos')
+const { whatsappUrl: waCta } = useWhatsApp('geral')
 </script>
 
 <template>
-  <div class="p-8">
-    <h1 class="font-heading text-4xl font-bold text-primary mb-4">
-      Kapaki Tatui
-    </h1>
-    <p class="font-body text-lg text-text-muted mb-6">
-      Fundacao configurada com sucesso.
-    </p>
-
-    <!-- Verify Lucide icons render (SETUP-05) -->
-    <div class="flex items-center gap-2 text-primary mb-4">
-      <Phone class="size-5" />
-      <span class="text-text">{{ config.phone }}</span>
-    </div>
-
-    <!-- Verify WhatsApp composable (WA-01) -->
-    <a
-      :href="whatsappUrl"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="inline-block bg-primary text-background font-heading font-semibold px-6 py-3 rounded-lg hover:bg-primary-hover transition-colors"
-    >
-      Falar no WhatsApp
-    </a>
-
-    <!-- Debug info (remove in Phase 2) -->
-    <pre class="mt-8 text-xs text-text-muted bg-surface p-4 rounded">
-WhatsApp URL: {{ whatsappUrl }}
-Site: {{ config.siteName }}
-Phone: {{ config.phone }}
-Hours: {{ config.hours }}
-    </pre>
+  <div>
+    <HeroSection :whatsapp-url="waHero" />
+    <ServicosSection
+      :services="SERVICES"
+      :wa-assistencia="waAssistencia"
+      :wa-acessorios="waAcessorios"
+      :wa-aparelhos="waAparelhos"
+    />
+    <ProvasSociaisSection :testimonials="TESTIMONIALS" />
+    <BeneficiosSection :benefits="BENEFITS" />
+    <CtaFinalSection :whatsapp-url="waCta" />
   </div>
 </template>
