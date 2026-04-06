@@ -43,7 +43,11 @@ Plans:
   2. Clicar em qualquer botao WhatsApp abre o aplicativo com a mensagem pre-preenchida especifica daquele servico ou secao
   3. O FAB WhatsApp nao aparece no topo da pagina, mas aparece fixo no canto inferior direito apos o usuario rolar a pagina
   4. O site e legivel e utilizavel em tela de 375px (iPhone SE), 768px (tablet) e 1280px (desktop) sem quebras de layout
-**Plans**: TBD
+**Plans:** 3 plans
+Plans:
+- [ ] 02-01-PLAN.md — Constants data, useScrollThreshold composable, atomic sections (Hero, ProvasSociais, Beneficios, CtaFinal), WhatsAppFab + app.vue
+- [ ] 02-02-PLAN.md — ServiceCard, ServicosSection, AppFooter + default.vue layout update
+- [ ] 02-03-PLAN.md — Assemble index.vue homepage with all sections, SEO meta, smooth scroll + visual checkpoint
 
 ### Phase 3: Paginas de Servico
 **Goal**: As tres paginas de servico estao no ar com conteudo unico, FAQ com schema markup e CTAs WhatsApp distintos por servico
@@ -75,6 +79,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Fundacao | 2/2 | Complete   | 2026-04-06 |
-| 2. Homepage | 0/TBD | Not started | - |
+| 2. Homepage | 0/3 | Not started | - |
 | 3. Paginas de Servico | 0/TBD | Not started | - |
 | 4. Analytics e Lancamento | 0/TBD | Not started | - |
