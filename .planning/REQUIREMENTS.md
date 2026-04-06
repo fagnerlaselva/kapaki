@@ -12,12 +12,12 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SETUP-01**: Projeto Nuxt 3 configurado com SSR (nitro preset: vercel), Tailwind v4 via @tailwindcss/vite, TypeScript
 - [x] **SETUP-02**: Paleta de cores dark theme (#111111 fundo, #F5C400 amarelo destaque) configurada no Tailwind
 - [x] **SETUP-03**: Tipografia Poppins (headings) + Inter (body) via @nuxt/fonts com self-hosting
-- [ ] **SETUP-04**: Dados de negocio centralizados em app.config.ts (WhatsApp, endereco, horarios) com placeholders
+- [x] **SETUP-04**: Dados de negocio centralizados em app.config.ts (WhatsApp, endereco, horarios) com placeholders
 - [x] **SETUP-05**: Icones via lucide-vue-next configurados
 
 ### WhatsApp & Conversao
 
-- [ ] **WA-01**: Composable useWhatsApp que gera links wa.me com encodeURIComponent e mensagens pre-preenchidas por servico
+- [x] **WA-01**: Composable useWhatsApp que gera links wa.me com encodeURIComponent e mensagens pre-preenchidas por servico
 - [ ] **WA-02**: Botoes WhatsApp com mensagens pre-preenchidas distintas por servico (acessorios, assistencia, aparelhos)
 - [ ] **WA-03**: FAB WhatsApp fixo (bottom-right, circulo verde #25D366) que aparece apos scroll, funciona em mobile e desktop
 - [ ] **WA-04**: CTA final amarelo full-width com botao WhatsApp em todas as paginas
@@ -105,9 +105,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SETUP-01 | Phase 1 | Complete |
 | SETUP-02 | Phase 1 | Complete |
 | SETUP-03 | Phase 1 | Complete |
-| SETUP-04 | Phase 1 | Pending |
+| SETUP-04 | Phase 1 | Complete |
 | SETUP-05 | Phase 1 | Complete |
-| WA-01 | Phase 1 | Pending |
+| WA-01 | Phase 1 | Complete |
 | WA-02 | Phase 2 | Pending |
 | WA-03 | Phase 2 | Pending |
 | WA-04 | Phase 2 | Pending |

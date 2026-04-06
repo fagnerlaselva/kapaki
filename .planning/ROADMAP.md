@@ -12,7 +12,7 @@ Quatro fases entregam um site institucional completo de conversao para WhatsApp:
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Fundacao** - Projeto Nuxt 3 configurado com SSR, Tailwind v4, fontes, icones, dados do negocio centralizados e composables WhatsApp/SEO/scroll
+- [x] **Phase 1: Fundacao** - Projeto Nuxt 3 configurado com SSR, Tailwind v4, fontes, icones, dados do negocio centralizados e composables WhatsApp/SEO/scroll (completed 2026-04-06)
 - [ ] **Phase 2: Homepage** - Pagina principal completa com todas as secoes, FAB WhatsApp funcional e site 100% responsivo
 - [ ] **Phase 3: Paginas de Servico** - Tres paginas de servico com H1 local, FAQ schema e SEO local completo
 - [ ] **Phase 4: Analytics e Lancamento** - GA4 integrado, Lighthouse >= 90, validacao SEO e deploy Vercel verificado
@@ -29,10 +29,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Dados do negocio (WhatsApp, endereco, horarios) existem em `app.config.ts` e um `console.log` os exibe sem hardcode espalhado no codigo
   4. `useWhatsApp('assistencia')` gera um link `wa.me` valido com mensagem pre-preenchida encodada corretamente
   5. A paleta dark (#111111 fundo, #F5C400 amarelo) e as fontes Poppins + Inter carregam sem CLS visivel
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 Plans:
 - [x] 01-01-PLAN.md — Scaffold Nuxt 3, install deps, configure nuxt.config.ts + Tailwind v4 theme
-- [ ] 01-02-PLAN.md — Business data (app.config.ts), WhatsApp composable, placeholder page + SSR verification
+- [x] 01-02-PLAN.md — Business data (app.config.ts), WhatsApp composable, placeholder page + SSR verification
 
 ### Phase 2: Homepage
 **Goal**: Visitante chega ao site e ve a homepage completa — todas as secoes, botoes WhatsApp funcionais e FAB visivel apos scroll
@@ -74,7 +74,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Fundacao | 1/2 | In Progress|  |
+| 1. Fundacao | 2/2 | Complete   | 2026-04-06 |
 | 2. Homepage | 0/TBD | Not started | - |
 | 3. Paginas de Servico | 0/TBD | Not started | - |
 | 4. Analytics e Lancamento | 0/TBD | Not started | - |

@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 01-fundacao-01-PLAN.md
-last_updated: "2026-04-06T11:41:53.514Z"
+stopped_at: Completed 01-fundacao-02-PLAN.md
+last_updated: "2026-04-06T11:48:23.004Z"
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
 ---
 
 # Project State
@@ -47,6 +47,7 @@ Plan: 2 of 2
 
 *Updated after each plan completion*
 | Phase 01-fundacao P01 | 5 | 3 tasks | 6 files |
+| Phase 01-fundacao P02 | 8 | 3 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -62,6 +63,9 @@ Recent decisions affecting current work:
 - [Phase 01-fundacao]: Tailwind v4 via @tailwindcss/vite (not @nuxtjs/tailwindcss) — PostCSS conflicts with v4 confirmed
 - [Phase 01-fundacao]: No tailwind.config.js — Tailwind v4 CSS-first @theme directive in main.css
 - [Phase 01-fundacao]: nitro.preset: 'vercel' mandatory for SSR — 'vercel-static' breaks schema JSON-LD and server-side meta tags
+- [Phase 01-fundacao]: Nuxt 4 uses app/ directory convention — ~/assets resolves to app/assets not project root
+- [Phase 01-fundacao]: ogImage.zeroRuntime: true prevents nuxt-og-image TTY crash in CI/non-terminal environments
+- [Phase 01-fundacao]: useWhatsApp composable called in pages only — section components receive whatsappUrl as prop
 
 ### Pending Todos
 
@@ -76,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T11:41:53.512Z
-Stopped at: Completed 01-fundacao-01-PLAN.md
+Last session: 2026-04-06T11:48:23.002Z
+Stopped at: Completed 01-fundacao-02-PLAN.md
 Resume file: None
