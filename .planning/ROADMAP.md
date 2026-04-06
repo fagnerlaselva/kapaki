@@ -13,7 +13,7 @@ Quatro fases entregam um site institucional completo de conversao para WhatsApp:
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Fundacao** - Projeto Nuxt 3 configurado com SSR, Tailwind v4, fontes, icones, dados do negocio centralizados e composables WhatsApp/SEO/scroll (completed 2026-04-06)
-- [ ] **Phase 2: Homepage** - Pagina principal completa com todas as secoes, FAB WhatsApp funcional e site 100% responsivo
+- [x] **Phase 2: Homepage** - Pagina principal completa com todas as secoes, FAB WhatsApp funcional e site 100% responsivo (completed 2026-04-06)
 - [ ] **Phase 3: Paginas de Servico** - Tres paginas de servico com H1 local, FAQ schema e SEO local completo
 - [ ] **Phase 4: Analytics e Lancamento** - GA4 integrado, Lighthouse >= 90, validacao SEO e deploy Vercel verificado
 
@@ -43,11 +43,11 @@ Plans:
   2. Clicar em qualquer botao WhatsApp abre o aplicativo com a mensagem pre-preenchida especifica daquele servico ou secao
   3. O FAB WhatsApp nao aparece no topo da pagina, mas aparece fixo no canto inferior direito apos o usuario rolar a pagina
   4. O site e legivel e utilizavel em tela de 375px (iPhone SE), 768px (tablet) e 1280px (desktop) sem quebras de layout
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 Plans:
 - [x] 02-01-PLAN.md — Constants data, useScrollThreshold composable, atomic sections (Hero, ProvasSociais, Beneficios, CtaFinal), WhatsAppFab + app.vue
 - [x] 02-02-PLAN.md — ServiceCard, ServicosSection, AppFooter + default.vue layout update
-- [ ] 02-03-PLAN.md — Assemble index.vue homepage with all sections, SEO meta, smooth scroll + visual checkpoint
+- [x] 02-03-PLAN.md — Assemble index.vue homepage with all sections, SEO meta, smooth scroll + visual checkpoint
 
 ### Phase 3: Paginas de Servico
 **Goal**: As tres paginas de servico estao no ar com conteudo unico, FAQ com schema markup e CTAs WhatsApp distintos por servico
@@ -79,6 +79,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Fundacao | 2/2 | Complete   | 2026-04-06 |
-| 2. Homepage | 2/3 | In Progress|  |
+| 2. Homepage | 3/3 | Complete   | 2026-04-06 |
 | 3. Paginas de Servico | 0/TBD | Not started | - |
 | 4. Analytics e Lancamento | 0/TBD | Not started | - |

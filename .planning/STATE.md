@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 02-homepage-01-PLAN.md
-last_updated: "2026-04-06T12:43:08.753Z"
+stopped_at: Completed 02-homepage-03-PLAN.md
+last_updated: "2026-04-06T13:08:32.537Z"
 progress:
   total_phases: 4
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 5
-  completed_plans: 4
+  completed_plans: 5
 ---
 
 # Project State
@@ -50,6 +50,7 @@ Plan: 3 of 3
 | Phase 01-fundacao P02 | 8 | 3 tasks | 7 files |
 | Phase 02-homepage P02 | 2 | 2 tasks | 4 files |
 | Phase 02-homepage P01 | 1 | 3 tasks | 10 files |
+| Phase 02-homepage P03 | 8 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,8 @@ Recent decisions affecting current work:
 - [Phase 02-homepage]: Footer background: bg-[#0A0A0A] arbitrary Tailwind value (darker than bg-surface #1C1C1C) per kapaki.md spec
 - [Phase 02-homepage]: All section components are strictly presentational — useWhatsApp and useAppConfig called at page level only, sections receive whatsappUrl as prop
 - [Phase 02-homepage]: v-show (not v-if) on WhatsAppFab in app.vue prevents SSR hydration mismatch — server renders display:none, client toggles
+- [Phase 02-homepage]: useServerSeoMeta (not useSeoMeta) ensures SEO meta runs server-side only, reducing client JS bundle
+- [Phase 02-homepage]: Page assembles all useWhatsApp URLs and passes to presentational section components as props — no composable calls inside components
 
 ### Pending Todos
 
@@ -87,6 +90,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T12:43:08.751Z
-Stopped at: Completed 02-homepage-01-PLAN.md
+Last session: 2026-04-06T13:08:32.535Z
+Stopped at: Completed 02-homepage-03-PLAN.md
 Resume file: None
