@@ -1,0 +1,22 @@
+// app.config.ts — Single source of truth for all business data
+// PLACEHOLDER values marked with X — replace with real data before launch
+export default defineAppConfig({
+  siteName: 'Kapaki Tatui',
+
+  // WhatsApp: digits only, country code (55) + area code (15) + 9-digit number
+  whatsapp: '5515XXXXXXXXX', // PLACEHOLDER — replace with real number
+
+  phone: '(15) XXXX-XXXX', // PLACEHOLDER — display format for humans
+
+  address: {
+    street: 'Rua PLACEHOLDER, NNN',
+    city: 'Tatui',
+    state: 'SP',
+    zip: 'XX.XXX-XXX',
+    country: 'BR',
+  },
+
+  instagram: '@kapaki_tatui', // PLACEHOLDER — confirm real handle
+
+  hours: 'Seg-Sex 9h-18h, Sab 9h-13h', // PLACEHOLDER — confirm with client
+})
