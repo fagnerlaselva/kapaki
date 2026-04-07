@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   ],
 
   gtag: {
-    id: process.env.NUXT_PUBLIC_GA_ID || 'G-XXXXXXXXXX',
+    id: process.env.NUXT_PUBLIC_GA_ID || 'G-PS7SN5QJJK',
     // Explicit async loading to ensure gtag.js does not block page rendering
     loadingStrategy: 'async',
   },
