@@ -5,10 +5,10 @@ import { BENEFITS } from '~/constants/benefits'
 
 // SEO meta — runs server-side only, zero client JS (per ARCHITECTURE.md Pattern 1)
 useServerSeoMeta({
-  title: 'Kapaki Tatui | Acessorios, Assistencia Tecnica e Celulares em Tatui-SP',
-  description: 'A Kapaki e a loja de confianca em Tatui para acessorios para celular, assistencia tecnica especializada e smartphones novos e seminovos. Atendimento rapido e preco justo.',
-  ogTitle: 'Kapaki Tatui | Sua loja de celulares em Tatui-SP',
-  ogDescription: 'Acessorios, assistencia tecnica e celulares em Tatui. Fale agora no WhatsApp.',
+  title: 'Kapaki Tatui | Loja de Celulares, Acessorios e Consertos em Tatui-SP',
+  description: 'Loja de celulares em Tatui-SP: conserto de celular com garantia, capinhas, peliculas, carregadores e smartphones novos e seminovos. Atendimento rapido na R. Onze de Agosto, 3045. Fale no WhatsApp!',
+  ogTitle: 'Kapaki Tatui | Loja de Celulares e Consertos em Tatui-SP',
+  ogDescription: 'Conserto de celular, acessorios e smartphones em Tatui e regiao. Atendimento rapido com garantia. Fale no WhatsApp!',
   ogImage: 'https://kapaki.com.br/og-image.jpg',
   twitterCard: 'summary_large_image',
 })

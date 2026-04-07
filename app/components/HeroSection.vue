@@ -20,10 +20,10 @@ function trackVerServicos() {
   <section class="bg-background py-20 lg:py-32 px-4">
     <div class="max-w-6xl mx-auto">
       <h1 class="font-heading text-4xl lg:text-6xl font-bold text-text mb-6">
-        Seu celular merece o melhor. Voce tambem.
+        Loja de Celulares em Tatui: Acessorios, Consertos e Aparelhos
       </h1>
       <p class="text-lg lg:text-xl text-text-muted mb-8 max-w-2xl">
-        Acessorios, consertos e celulares — tudo em um so lugar, aqui em Tatui.
+        A Kapaki e a loja referencia em Tatui e regiao para acessorios, assistencia tecnica e smartphones. Atendimento rapido, preco justo e garantia em tudo.
       </p>
       <div class="flex flex-col sm:flex-row gap-4">
         <a
