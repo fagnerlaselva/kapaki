@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 02-homepage-03-PLAN.md
-last_updated: "2026-04-06T13:49:55.220Z"
+stopped_at: Completed 03-paginas-de-servico-01-PLAN.md
+last_updated: "2026-04-07T01:46:44.825Z"
 progress:
   total_phases: 4
   completed_phases: 2
-  total_plans: 5
-  completed_plans: 5
+  total_plans: 7
+  completed_plans: 6
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-06)
 
 **Core value:** Gerar leads via WhatsApp — cada pagina e CTA deve maximizar contatos iniciados no WhatsApp da loja.
-**Current focus:** Phase 02 — homepage
+**Current focus:** Phase 03 — paginas-de-servico
 
 ## Current Position
 
-Phase: 3
-Plan: Not started
+Phase: 03 (paginas-de-servico) — EXECUTING
+Plan: 2 of 2
 
 ## Performance Metrics
 
@@ -51,6 +51,7 @@ Plan: Not started
 | Phase 02-homepage P02 | 2 | 2 tasks | 4 files |
 | Phase 02-homepage P01 | 1 | 3 tasks | 10 files |
 | Phase 02-homepage P03 | 8 | 2 tasks | 2 files |
+| Phase 03-paginas-de-servico P01 | 15 | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -76,6 +77,9 @@ Recent decisions affecting current work:
 - [Phase 02-homepage]: v-show (not v-if) on WhatsAppFab in app.vue prevents SSR hydration mismatch — server renders display:none, client toggles
 - [Phase 02-homepage]: useServerSeoMeta (not useSeoMeta) ensures SEO meta runs server-side only, reducing client JS bundle
 - [Phase 02-homepage]: Page assembles all useWhatsApp URLs and passes to presentational section components as props — no composable calls inside components
+- [Phase 03-paginas-de-servico]: ElectronicsRepair (not LocalBusiness) injected once in default.vue — most specific schema.org type for phone repair shop
+- [Phase 03-paginas-de-servico]: FaqAccordion uses native details/summary — zero JS, SSR-safe, accessible by default
+- [Phase 03-paginas-de-servico]: og:image uses hardcoded absolute URL https://kapaki.com.br/og-image.jpg for WhatsApp preview compatibility
 
 ### Pending Todos
 
@@ -90,6 +94,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-06T13:08:32.535Z
-Stopped at: Completed 02-homepage-03-PLAN.md
+Last session: 2026-04-07T01:46:44.823Z
+Stopped at: Completed 03-paginas-de-servico-01-PLAN.md
 Resume file: None
