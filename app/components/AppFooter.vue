@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { MapPin, MessageCircle, Instagram } from 'lucide-vue-next'
 
-defineProps<{
+const props = defineProps<{
   siteName: string
   address: { street: string; city: string; state: string; zip: string }
   phone: string
@@ -9,6 +9,16 @@ defineProps<{
   instagram: string
   hours: { weekday: string; saturday: string; sunday: string }
 }>()
+
+const { gtag } = useGtag()
+
+function trackFooterWhatsApp() {
+  gtag('event', 'whatsapp_click', { event_label: 'footer', link_url: props.whatsappUrl })
+}
+
+function trackInstagramClick() {
+  gtag('event', 'instagram_click', { event_label: 'footer' })
+}
 </script>
 
 <template>
@@ -38,6 +48,7 @@ defineProps<{
                 target="_blank"
                 rel="noopener noreferrer"
                 class="hover:text-primary transition-colors"
+                @click="trackFooterWhatsApp"
               >
                 WhatsApp: {{ phone }}
               </a>
@@ -49,6 +60,7 @@ defineProps<{
                 target="_blank"
                 rel="noopener noreferrer"
                 class="hover:text-primary transition-colors"
+                @click="trackInstagramClick"
               >
                 {{ instagram }}
               </a>

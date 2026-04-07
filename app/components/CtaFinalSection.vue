@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import { MessageCircle } from 'lucide-vue-next'
 
-defineProps<{
+const props = defineProps<{
   whatsappUrl: string
 }>()
+
+const { gtag } = useGtag()
+
+function trackCtaWhatsApp() {
+  gtag('event', 'whatsapp_click', { event_label: 'cta_final', link_url: props.whatsappUrl })
+}
 </script>
 
 <template>
@@ -20,6 +26,7 @@ defineProps<{
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center gap-2 bg-background text-text font-heading font-semibold px-8 py-4 rounded-lg hover:bg-background/90 transition-colors"
+        @click="trackCtaWhatsApp"
       >
         <MessageCircle class="size-5" />
         Chamar no WhatsApp agora

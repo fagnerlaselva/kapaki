@@ -1,9 +1,19 @@
 <script setup lang="ts">
 import { MessageCircle } from 'lucide-vue-next'
 
-defineProps<{
+const props = defineProps<{
   whatsappUrl: string
 }>()
+
+const { gtag } = useGtag()
+
+function trackWhatsApp() {
+  gtag('event', 'whatsapp_click', { event_label: 'hero_cta', link_url: props.whatsappUrl })
+}
+
+function trackVerServicos() {
+  gtag('event', 'ver_servicos_click', { event_label: 'hero_anchor' })
+}
 </script>
 
 <template>
@@ -21,6 +31,7 @@ defineProps<{
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 bg-primary text-background font-heading font-semibold px-6 py-3 rounded-lg hover:bg-primary-hover transition-colors"
+          @click="trackWhatsApp"
         >
           <MessageCircle class="size-5" />
           Falar no WhatsApp
@@ -28,6 +39,7 @@ defineProps<{
         <a
           href="#servicos"
           class="inline-flex items-center gap-2 border border-text text-text font-heading font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition-colors"
+          @click="trackVerServicos"
         >
           Ver servicos
         </a>

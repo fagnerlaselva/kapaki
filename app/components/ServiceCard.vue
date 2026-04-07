@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   title: string
   description: string
   ctaLabel: string
@@ -7,6 +7,12 @@ defineProps<{
   badge?: string
   featured?: boolean
 }>()
+
+const { gtag } = useGtag()
+
+function trackServiceCta() {
+  gtag('event', 'service_cta_click', { event_label: props.title, link_url: props.whatsappUrl })
+}
 </script>
 
 <template>
@@ -25,6 +31,7 @@ defineProps<{
       target="_blank"
       rel="noopener noreferrer"
       class="mt-auto inline-flex items-center gap-1 text-primary font-semibold hover:underline"
+      @click="trackServiceCta"
     >{{ ctaLabel }} &rarr;</a>
   </div>
 </template>
