@@ -4,9 +4,9 @@ export default defineAppConfig({
   siteName: 'Kapaki Tatui',
 
   // WhatsApp: digits only, country code (55) + area code (15) + 9-digit number
-  whatsapp: '5515XXXXXXXXX', // PLACEHOLDER — replace with real number
+  whatsapp: '5515996403032',
 
-  phone: '(15) XXXX-XXXX', // PLACEHOLDER — display format for humans
+  phone: '(15) 99640-3032',
 
   address: {
     street: 'Rua PLACEHOLDER, NNN',
