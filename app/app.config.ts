@@ -18,5 +18,9 @@ export default defineAppConfig({
 
   instagram: '@loja_kapaki_tatui_',
 
+  facebook: 'https://www.facebook.com/kapa.ace.144',
+
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=R.+Onze+de+Agosto+3045+Jardim+Lucila+Tatui+SP+18277-000',
+
   hours: 'Seg-Sab 11h-20h, Dom 11h-14h',
 })

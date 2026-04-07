@@ -40,6 +40,7 @@ useHead({
       priceRange: '$$',
       sameAs: [
         `https://www.instagram.com/${(config.instagram as string).replace('@', '')}/`,
+        config.facebook as string,
       ],
       // geo coordinates pending — add when client provides lat/lng
     }),
@@ -52,11 +53,13 @@ useHead({
     <slot />
     <AppFooter
       :site-name="(config.siteName as string)"
-      :address="(config.address as { street: string; city: string; state: string; zip: string })"
+      :address="(config.address as any)"
       :phone="(config.phone as string)"
       :whatsapp-url="footerWaUrl"
       :instagram="(config.instagram as string)"
-      :hours="{ weekday: 'Seg-Sab 11h-20h', saturday: '', sunday: 'Dom 11h-14h' }"
+      :facebook="(config.facebook as string)"
+      :google-maps-url="(config.googleMapsUrl as string)"
+      :hours="{ weekday: 'Seg-Sab 11h-20h', sunday: 'Dom 11h-14h' }"
     />
   </div>
 </template>
