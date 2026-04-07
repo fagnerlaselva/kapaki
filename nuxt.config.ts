@@ -12,7 +12,12 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxt/fonts',
     '@nuxt/image',
+    'nuxt-gtag',
   ],
+
+  gtag: {
+    id: process.env.NUXT_PUBLIC_GA_ID || 'G-XXXXXXXXXX',
+  },
 
   vite: {
     plugins: [tailwindcss()],
