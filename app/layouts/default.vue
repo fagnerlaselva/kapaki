@@ -25,15 +25,15 @@ useHead({
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-          opens: '09:00',
-          closes: '18:00',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+          opens: '11:00',
+          closes: '20:00',
         },
         {
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Saturday'],
-          opens: '09:00',
-          closes: '13:00',
+          dayOfWeek: ['Sunday'],
+          opens: '11:00',
+          closes: '14:00',
         },
       ],
       image: 'https://kapaki.com.br/og-image.jpg',
@@ -56,7 +56,7 @@ useHead({
       :phone="(config.phone as string)"
       :whatsapp-url="footerWaUrl"
       :instagram="(config.instagram as string)"
-      :hours="{ weekday: 'Seg-Sex 9h-18h', saturday: 'Sab 9h-13h', sunday: 'Fechado' }"
+      :hours="{ weekday: 'Seg-Sab 11h-20h', saturday: '', sunday: 'Dom 11h-14h' }"
     />
   </div>
 </template>

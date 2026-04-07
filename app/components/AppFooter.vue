@@ -72,9 +72,8 @@ function trackInstagramClick() {
         <div>
           <h3 class="font-heading text-lg font-bold text-text mb-4">Horarios</h3>
           <ul class="space-y-2 text-sm text-text-muted">
-            <li>Segunda a Sexta: 9h as 18h</li>
-            <li>Sabado: 9h as 13h</li>
-            <li>Domingo: Fechado</li>
+            <li>Segunda a Sabado: 11h as 20h</li>
+            <li>Domingo: 11h as 14h</li>
           </ul>
         </div>
       </div>

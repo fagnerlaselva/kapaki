@@ -32,7 +32,7 @@ function trackCtaWhatsApp() {
         Chamar no WhatsApp agora
       </a>
       <p class="text-sm text-background/60 text-center mt-4">
-        Respondemos em instantes - Seg a Sab - Tatui-SP
+        Respondemos em instantes - Todos os dias - Tatui-SP
       </p>
     </div>
   </section>

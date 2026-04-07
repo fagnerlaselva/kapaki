@@ -1,5 +1,4 @@
 // app.config.ts — Single source of truth for all business data
-// PLACEHOLDER values marked with X — replace with real data before launch
 export default defineAppConfig({
   siteName: 'Kapaki Tatui',
 
@@ -9,14 +8,15 @@ export default defineAppConfig({
   phone: '(15) 99640-3032',
 
   address: {
-    street: 'Rua PLACEHOLDER, NNN',
+    street: 'R. Onze de Agosto, 3045 - Jardim Lucila',
     city: 'Tatui',
     state: 'SP',
-    zip: 'XX.XXX-XXX',
+    zip: '18277-000',
     country: 'BR',
+    reference: 'Localizado em: Coop Supermercado - XI de Agosto',
   },
 
   instagram: '@loja_kapaki_tatui_',
 
-  hours: 'Seg-Sex 9h-18h, Sab 9h-13h', // PLACEHOLDER — confirm with client
+  hours: 'Seg-Sab 11h-20h, Dom 11h-14h',
 })
