@@ -16,7 +16,7 @@ export default defineAppConfig({
     country: 'BR',
   },
 
-  instagram: '@kapaki_tatui', // PLACEHOLDER — confirm real handle
+  instagram: '@loja_kapaki_tatui_',
 
   hours: 'Seg-Sex 9h-18h, Sab 9h-13h', // PLACEHOLDER — confirm with client
 })
