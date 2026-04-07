@@ -32,17 +32,17 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Paginas de Servico
 
-- [ ] **SERV-01**: Pagina /assistencia-tecnica com H1 unico, lista de servicos, FAQ e CTA WhatsApp
-- [ ] **SERV-02**: Pagina /acessorios com H1 unico, produtos destacados e CTA WhatsApp
-- [ ] **SERV-03**: Pagina /aparelhos com H1 unico, diferenciais e CTA WhatsApp
+- [x] **SERV-01**: Pagina /assistencia-tecnica com H1 unico, lista de servicos, FAQ e CTA WhatsApp
+- [x] **SERV-02**: Pagina /acessorios com H1 unico, produtos destacados e CTA WhatsApp
+- [x] **SERV-03**: Pagina /aparelhos com H1 unico, diferenciais e CTA WhatsApp
 - [x] **SERV-04**: Layout compartilhado entre paginas de servico (hero simplificado + conteudo + CTA + FAQ)
 
 ### SEO Local
 
-- [ ] **SEO-01**: useServerSeoMeta com title e description unicos em todas as paginas
+- [x] **SEO-01**: useServerSeoMeta com title e description unicos em todas as paginas
 - [x] **SEO-02**: Schema JSON-LD LocalBusiness/ElectronicsRepair global via useHead
-- [ ] **SEO-03**: Schema FAQPage JSON-LD nas paginas de servico com FAQ
-- [ ] **SEO-04**: Sitemap e robots.txt via @nuxtjs/seo
+- [x] **SEO-03**: Schema FAQPage JSON-LD nas paginas de servico com FAQ
+- [x] **SEO-04**: Sitemap e robots.txt via @nuxtjs/seo
 - [x] **SEO-05**: og:image com URL absoluta para preview correto no WhatsApp
 
 ### Responsividade & Performance
@@ -116,14 +116,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HOME-03 | Phase 2 | Complete |
 | HOME-04 | Phase 2 | Complete |
 | HOME-05 | Phase 2 | Complete |
-| SERV-01 | Phase 3 | Pending |
-| SERV-02 | Phase 3 | Pending |
-| SERV-03 | Phase 3 | Pending |
+| SERV-01 | Phase 3 | Complete |
+| SERV-02 | Phase 3 | Complete |
+| SERV-03 | Phase 3 | Complete |
 | SERV-04 | Phase 3 | Complete |
-| SEO-01 | Phase 3 | Pending |
+| SEO-01 | Phase 3 | Complete |
 | SEO-02 | Phase 3 | Complete |
-| SEO-03 | Phase 3 | Pending |
-| SEO-04 | Phase 3 | Pending |
+| SEO-03 | Phase 3 | Complete |
+| SEO-04 | Phase 3 | Complete |
 | SEO-05 | Phase 3 | Complete |
 | PERF-01 | Phase 2 | Complete |
 | PERF-02 | Phase 4 | Pending |

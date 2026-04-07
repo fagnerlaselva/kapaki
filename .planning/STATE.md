@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 03-paginas-de-servico-01-PLAN.md
-last_updated: "2026-04-07T01:46:44.825Z"
+stopped_at: Completed 03-paginas-de-servico-02-PLAN.md
+last_updated: "2026-04-07T01:53:46.608Z"
 progress:
   total_phases: 4
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 7
-  completed_plans: 6
+  completed_plans: 7
 ---
 
 # Project State
@@ -52,6 +52,7 @@ Plan: 2 of 2
 | Phase 02-homepage P01 | 1 | 3 tasks | 10 files |
 | Phase 02-homepage P03 | 8 | 2 tasks | 2 files |
 | Phase 03-paginas-de-servico P01 | 15 | 2 tasks | 7 files |
+| Phase 03-paginas-de-servico P02 | 3 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -80,6 +81,8 @@ Recent decisions affecting current work:
 - [Phase 03-paginas-de-servico]: ElectronicsRepair (not LocalBusiness) injected once in default.vue — most specific schema.org type for phone repair shop
 - [Phase 03-paginas-de-servico]: FaqAccordion uses native details/summary — zero JS, SSR-safe, accessible by default
 - [Phase 03-paginas-de-servico]: og:image uses hardcoded absolute URL https://kapaki.com.br/og-image.jpg for WhatsApp preview compatibility
+- [Phase 03-paginas-de-servico]: FAQPage JSON-LD schema only on /assistencia-tecnica — the only page with FAQ content per kapaki.md
+- [Phase 03-paginas-de-servico]: Service page pattern: useWhatsApp(serviceKey) at page level, props passed to presentational components (ServiceHeroSection, CtaFinalSection)
 
 ### Pending Todos
 
@@ -94,6 +97,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-07T01:46:44.823Z
-Stopped at: Completed 03-paginas-de-servico-01-PLAN.md
+Last session: 2026-04-07T01:53:46.606Z
+Stopped at: Completed 03-paginas-de-servico-02-PLAN.md
 Resume file: None
