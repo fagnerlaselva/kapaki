@@ -17,6 +17,17 @@ export default defineNuxtConfig({
 
   gtag: {
     id: process.env.NUXT_PUBLIC_GA_ID || 'G-XXXXXXXXXX',
+    // Explicit async loading to ensure gtag.js does not block page rendering
+    loadingStrategy: 'async',
+  },
+
+  // Ensure lang="pt-BR" is set on <html> for Lighthouse SEO = 100
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'pt-BR',
+      },
+    },
   },
 
   vite: {
