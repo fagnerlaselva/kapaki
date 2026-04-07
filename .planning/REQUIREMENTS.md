@@ -55,8 +55,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Analytics
 
-- [ ] **ANAL-01**: Google Analytics 4 integrado via nuxt-gtag (SSR-safe, plugin .client)
-- [ ] **ANAL-02**: Evento customizado GA4 para cliques em TODOS os botoes (WhatsApp, "Ver servicos", CTAs de servico, links de navegacao)
+- [x] **ANAL-01**: Google Analytics 4 integrado via nuxt-gtag (SSR-safe, plugin .client)
+- [x] **ANAL-02**: Evento customizado GA4 para cliques em TODOS os botoes (WhatsApp, "Ver servicos", CTAs de servico, links de navegacao)
 
 ## v2 Requirements
 
@@ -130,8 +130,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PERF-03 | Phase 4 | Pending |
 | PERF-04 | Phase 3 | Complete |
 | PERF-05 | Phase 3 | Complete |
-| ANAL-01 | Phase 4 | Pending |
-| ANAL-02 | Phase 4 | Pending |
+| ANAL-01 | Phase 4 | Complete |
+| ANAL-02 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 30 total

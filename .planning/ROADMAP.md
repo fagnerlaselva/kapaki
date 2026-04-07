@@ -74,7 +74,7 @@ Plans:
   3. O Lighthouse mobile da homepage retorna Performance >= 90 e SEO = 100
 **Plans:** 2 plans
 Plans:
-- [ ] 04-01-PLAN.md — Install nuxt-gtag, configure GA4 with env var, add custom event tracking to all 6 interactive components
+- [x] 04-01-PLAN.md — Install nuxt-gtag, configure GA4 with env var, add custom event tracking to all 6 interactive components
 - [ ] 04-02-PLAN.md — Lighthouse audit, performance/SEO score verification, human checkpoint for GA4 events
 
 ## Progress
