@@ -2,7 +2,7 @@
 const config = useAppConfig()
 const { whatsappUrl: footerWaUrl } = useWhatsApp('geral')
 
-const addr = config.address as { street: string; city: string; state: string; zip: string }
+const addr = (config.address ?? { street: '', city: 'Tatui', state: 'SP', zip: '' }) as { street: string; city: string; state: string; zip: string }
 
 useHead({
   script: [{
