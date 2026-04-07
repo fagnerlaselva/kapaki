@@ -9,7 +9,7 @@ useServerSeoMeta({
   description: 'A Kapaki e a loja de confianca em Tatui para acessorios para celular, assistencia tecnica especializada e smartphones novos e seminovos. Atendimento rapido e preco justo.',
   ogTitle: 'Kapaki Tatui | Sua loja de celulares em Tatui-SP',
   ogDescription: 'Acessorios, assistencia tecnica e celulares em Tatui. Fale agora no WhatsApp.',
-  ogImage: '/og-image.jpg',
+  ogImage: 'https://kapaki.com.br/og-image.jpg',
   twitterCard: 'summary_large_image',
 })
 

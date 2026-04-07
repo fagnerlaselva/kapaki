@@ -1,6 +1,50 @@
 <script setup lang="ts">
 const config = useAppConfig()
 const { whatsappUrl: footerWaUrl } = useWhatsApp('geral')
+
+const addr = config.address as { street: string; city: string; state: string; zip: string }
+
+useHead({
+  script: [{
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'ElectronicsRepair',
+      name: config.siteName as string,
+      description: 'Assistencia tecnica para celulares, acessorios e aparelhos em Tatui-SP',
+      url: 'https://kapaki.com.br',
+      telephone: config.phone as string,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: addr.street,
+        addressLocality: addr.city,
+        addressRegion: addr.state,
+        postalCode: addr.zip,
+        addressCountry: 'BR',
+      },
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '09:00',
+          closes: '18:00',
+        },
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Saturday'],
+          opens: '09:00',
+          closes: '13:00',
+        },
+      ],
+      image: 'https://kapaki.com.br/og-image.jpg',
+      priceRange: '$$',
+      sameAs: [
+        `https://www.instagram.com/${(config.instagram as string).replace('@', '')}/`,
+      ],
+      // geo coordinates pending — add when client provides lat/lng
+    }),
+  }],
+})
 </script>
 
 <template>
