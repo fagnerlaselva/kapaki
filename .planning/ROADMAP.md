@@ -59,7 +59,10 @@ Plans:
   3. `curl` em qualquer URL retorna `<script type="application/ld+json">` com schema `ElectronicsRepair` no HTML (SSR confirmado)
   4. O sitemap.xml e robots.txt existem e estao acessiveis em producao
   5. A og:image de cada pagina usa URL absoluta e renderiza preview correto ao colar o link no WhatsApp Web
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 03-01-PLAN.md — Shared components (ServiceHeroSection, FaqAccordion, faq.ts), og-image placeholder, ElectronicsRepair schema in default.vue, fix index.vue og:image
+- [ ] 03-02-PLAN.md — Three service pages (assistencia-tecnica, acessorios, aparelhos) with SEO meta, FAQ schema, sitemap/robots verification
 
 ### Phase 4: Analytics e Lancamento
 **Goal**: O site esta em producao com rastreamento de conversoes ativo e pontuacoes Lighthouse validadas
@@ -80,5 +83,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Fundacao | 2/2 | Complete   | 2026-04-06 |
 | 2. Homepage | 3/3 | Complete   | 2026-04-06 |
-| 3. Paginas de Servico | 0/TBD | Not started | - |
+| 3. Paginas de Servico | 0/2 | In Progress | - |
 | 4. Analytics e Lancamento | 0/TBD | Not started | - |
