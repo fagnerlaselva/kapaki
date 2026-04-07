@@ -48,8 +48,8 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Responsividade & Performance
 
 - [x] **PERF-01**: Site 100% responsivo mobile-first (mobile, tablet, desktop)
-- [ ] **PERF-02**: Lighthouse Performance >= 90 (mobile)
-- [ ] **PERF-03**: Lighthouse SEO = 100
+- [x] **PERF-02**: Lighthouse Performance >= 90 (mobile)
+- [x] **PERF-03**: Lighthouse SEO = 100
 - [x] **PERF-04**: Imagens otimizadas via @nuxt/image com lazy loading
 - [x] **PERF-05**: Hero image com loading="eager" e fetchpriority="high"
 
@@ -126,8 +126,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEO-04 | Phase 3 | Complete |
 | SEO-05 | Phase 3 | Complete |
 | PERF-01 | Phase 2 | Complete |
-| PERF-02 | Phase 4 | Pending |
-| PERF-03 | Phase 4 | Pending |
+| PERF-02 | Phase 4 | Complete |
+| PERF-03 | Phase 4 | Complete |
 | PERF-04 | Phase 3 | Complete |
 | PERF-05 | Phase 3 | Complete |
 | ANAL-01 | Phase 4 | Complete |

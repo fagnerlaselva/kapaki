@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Fundacao** - Projeto Nuxt 3 configurado com SSR, Tailwind v4, fontes, icones, dados do negocio centralizados e composables WhatsApp/SEO/scroll (completed 2026-04-06)
 - [x] **Phase 2: Homepage** - Pagina principal completa com todas as secoes, FAB WhatsApp funcional e site 100% responsivo (completed 2026-04-06)
 - [x] **Phase 3: Paginas de Servico** - Tres paginas de servico com H1 local, FAQ schema e SEO local completo (completed 2026-04-07)
-- [ ] **Phase 4: Analytics e Lancamento** - GA4 integrado, Lighthouse >= 90, validacao SEO e deploy Vercel verificado
+- [x] **Phase 4: Analytics e Lancamento** - GA4 integrado, Lighthouse >= 90, validacao SEO e deploy Vercel verificado (completed 2026-04-07)
 
 ## Phase Details
 
@@ -72,10 +72,10 @@ Plans:
   1. O Google Analytics 4 registra pageviews em tempo real sem erros no console e sem chamadas de rede para o GA originadas do servidor
   2. Clicar em um botao WhatsApp dispara um evento customizado visivel no GA4 DebugView
   3. O Lighthouse mobile da homepage retorna Performance >= 90 e SEO = 100
-**Plans:** 2 plans
+**Plans:** 2/2 plans complete
 Plans:
 - [x] 04-01-PLAN.md — Install nuxt-gtag, configure GA4 with env var, add custom event tracking to all 6 interactive components
-- [ ] 04-02-PLAN.md — Lighthouse audit, performance/SEO score verification, human checkpoint for GA4 events
+- [x] 04-02-PLAN.md — Lighthouse audit, performance/SEO score verification, human checkpoint for GA4 events
 
 ## Progress
 
@@ -87,4 +87,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Fundacao | 2/2 | Complete   | 2026-04-06 |
 | 2. Homepage | 3/3 | Complete   | 2026-04-06 |
 | 3. Paginas de Servico | 2/2 | Complete   | 2026-04-07 |
-| 4. Analytics e Lancamento | 0/2 | Not started | - |
+| 4. Analytics e Lancamento | 2/2 | Complete   | 2026-04-07 |

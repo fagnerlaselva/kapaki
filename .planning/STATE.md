@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 04-analytics-e-lancamento-01-PLAN.md
-last_updated: "2026-04-07T12:02:42.820Z"
+stopped_at: Completed 04-analytics-e-lancamento-02-PLAN.md
+last_updated: "2026-04-07T12:50:27.897Z"
 progress:
   total_phases: 4
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 9
-  completed_plans: 8
+  completed_plans: 9
 ---
 
 # Project State
@@ -54,6 +54,7 @@ Plan: 2 of 2
 | Phase 03-paginas-de-servico P01 | 15 | 2 tasks | 7 files |
 | Phase 03-paginas-de-servico P02 | 3 | 2 tasks | 3 files |
 | Phase 04-analytics-e-lancamento P01 | 4 | 2 tasks | 8 files |
+| Phase 04-analytics-e-lancamento P02 | 8 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -86,6 +87,8 @@ Recent decisions affecting current work:
 - [Phase 03-paginas-de-servico]: Service page pattern: useWhatsApp(serviceKey) at page level, props passed to presentational components (ServiceHeroSection, CtaFinalSection)
 - [Phase 04-analytics-e-lancamento]: nuxt-gtag auto init mode used (not manual) — project does not require LGPD cookie consent banner per PRD scope
 - [Phase 04-analytics-e-lancamento]: useGtag() composable auto-imported by nuxt-gtag — no explicit import needed; props pattern used so tracking functions access prop values
+- [Phase 04-analytics-e-lancamento]: gtag loadingStrategy set to 'async' (non-blocking GA script load, faster than defer default)
+- [Phase 04-analytics-e-lancamento]: html lang='pt-BR' added explicitly via app.head.htmlAttrs in nuxt.config.ts to guarantee Lighthouse SEO = 100
 
 ### Pending Todos
 
@@ -100,6 +103,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-07T12:02:42.818Z
-Stopped at: Completed 04-analytics-e-lancamento-01-PLAN.md
+Last session: 2026-04-07T12:50:27.895Z
+Stopped at: Completed 04-analytics-e-lancamento-02-PLAN.md
 Resume file: None
