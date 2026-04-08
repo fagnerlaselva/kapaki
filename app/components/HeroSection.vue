@@ -18,15 +18,21 @@ function trackVerServicos() {
 
 <template>
   <section class="bg-background py-20 lg:py-32 px-4">
-    <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12">
-      <div class="flex-1">
-        <h1 class="font-heading text-4xl lg:text-6xl font-bold text-text mb-6">
-          Loja de Celulares em Tatui: Acessorios, Consertos e Aparelhos
-        </h1>
-        <p class="text-lg lg:text-xl text-text-muted mb-8 max-w-2xl">
-          A Kapaki e a loja referencia em Tatui e regiao para acessorios, assistencia tecnica e smartphones. Atendimento rapido, preco justo e garantia em tudo.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4">
+    <div class="max-w-6xl mx-auto">
+      <img
+        src="/logo.png"
+        alt="Logo Kapaki"
+        width="200"
+        height="200"
+        class="w-36 lg:w-48 h-auto mb-8"
+      />
+      <h1 class="font-heading text-4xl lg:text-6xl font-bold text-text mb-6">
+        Loja de Celulares em Tatui: Acessorios, Consertos e Aparelhos
+      </h1>
+      <p class="text-lg lg:text-xl text-text-muted mb-8 max-w-2xl">
+        A Kapaki e a loja referencia em Tatui e regiao para acessorios, assistencia tecnica e smartphones. Atendimento rapido, preco justo e garantia em tudo.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4">
         <a
           :href="whatsappUrl"
           target="_blank"
@@ -44,16 +50,6 @@ function trackVerServicos() {
         >
           Ver servicos
         </a>
-        </div>
-      </div>
-      <div class="flex-shrink-0">
-        <img
-          src="/logo.png"
-          alt="Kapaki Tatui - Loja de Celulares"
-          width="300"
-          height="300"
-          class="w-48 lg:w-72 h-auto"
-        />
       </div>
     </div>
   </section>
