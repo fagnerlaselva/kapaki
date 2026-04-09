@@ -10,7 +10,7 @@ useServerSeoMeta({
   description: 'Reparo de celular em Tatui com garantia: troca de tela, bateria, celular molhado, desbloqueio. Atendimento rapido na R. Onze de Agosto, 3045 - Jardim Lucila. Ligue ou chame no WhatsApp!',
   ogTitle: 'Conserto de Celular em Tatui | Kapaki Assistencia Tecnica',
   ogDescription: 'Troca de tela, bateria e reparos em celular com garantia em Tatui-SP. Atendimento no mesmo dia!',
-  ogImage: 'https://kapaki.com.br/og-image.jpg',
+  ogImage: 'https://kapaki.com.br/logo.png',
   twitterCard: 'summary_large_image',
 })
 

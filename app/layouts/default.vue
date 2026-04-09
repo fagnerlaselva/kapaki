@@ -36,7 +36,7 @@ useHead({
           closes: '14:00',
         },
       ],
-      image: 'https://kapaki.com.br/og-image.jpg',
+      image: 'https://kapaki.com.br/logo.png',
       priceRange: '$$',
       sameAs: [
         `https://www.instagram.com/${(config.instagram as string).replace('@', '')}/`,

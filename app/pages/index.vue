@@ -9,7 +9,7 @@ useServerSeoMeta({
   description: 'Loja de celulares em Tatui-SP: conserto de celular com garantia, capinhas, peliculas, carregadores e smartphones novos e seminovos. Atendimento rapido na R. Onze de Agosto, 3045. Fale no WhatsApp!',
   ogTitle: 'Kapaki Tatui | Loja de Celulares e Consertos em Tatui-SP',
   ogDescription: 'Conserto de celular, acessorios e smartphones em Tatui e regiao. Atendimento rapido com garantia. Fale no WhatsApp!',
-  ogImage: 'https://kapaki.com.br/og-image.jpg',
+  ogImage: 'https://kapaki.com.br/logo.png',
   twitterCard: 'summary_large_image',
 })
 

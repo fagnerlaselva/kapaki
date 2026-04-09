@@ -9,7 +9,7 @@ useServerSeoMeta({
   description: 'Compre acessorios para celular em Tatui: capinhas, peliculas de vidro, carregadores, fones e cabos. Todas as marcas, preco justo e pronta entrega na R. Onze de Agosto, 3045.',
   ogTitle: 'Acessorios para Celular em Tatui | Kapaki',
   ogDescription: 'Capinhas, peliculas, carregadores e fones para todas as marcas em Tatui-SP. Preco justo e pronta entrega!',
-  ogImage: 'https://kapaki.com.br/og-image.jpg',
+  ogImage: 'https://kapaki.com.br/logo.png',
   twitterCard: 'summary_large_image',
 })
 

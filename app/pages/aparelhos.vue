@@ -10,7 +10,7 @@ useServerSeoMeta({
   description: 'Compre celular em Tatui com garantia e procedencia: smartphones novos e seminovos Samsung, iPhone, Motorola e Xiaomi. Parcelamento disponivel na R. Onze de Agosto, 3045.',
   ogTitle: 'Comprar Celular em Tatui | Kapaki Smartphones',
   ogDescription: 'Smartphones novos e seminovos com garantia em Tatui-SP. Todas as marcas, parcelamento disponivel!',
-  ogImage: 'https://kapaki.com.br/og-image.jpg',
+  ogImage: 'https://kapaki.com.br/logo.png',
   twitterCard: 'summary_large_image',
 })
 
